@@ -1,0 +1,63 @@
+.contact .row{
+	display: flex;
+	align-items: center;
+	background: #2d2d2d;
+	flex-wrap: wrap;
+	gap: 1rem;
+	border: 3px solid #3aa34e;
+	border-radius: 40px;
+}
+
+.contact .row .map{
+	flex: 1 1 45rem;
+	width: 100%;
+	object-fit: cover;
+	margin-left:20px;
+	border-radius: 15px;
+}
+
+.contact .row form{
+	flex: 1 1 47rem;
+	padding: 3rem 2rem;
+	text-align: center;
+	background: #2d2d2d;
+	border-radius: 35px;
+}
+.contact .row form h3{
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	color: 3aa34e;
+	
+}
+.contact .row form .inputBox{
+	display: flex;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background:  #ffffff;
+	border: 2px solid #3aa34e;
+	border-radius: 15px;
+	margin-right:10px;
+}
+.contact .row form .inputBox span{
+	color: #14345c;
+	font-size: 2rem;
+	padding-left: 2rem;
+}
+.contact .row form .inputBox input,
+.contact .row form .inputBox textarea{
+	width: 100%;
+	padding: 2rem;
+	font-size: 1.7rem;
+	color: #000000;
+	text-transform: none;
+	background: none;
+}
+input[type=number].mobile::-webkit-inner-spin-button,
+input[type=number].mobile::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+::placeholder{
+	color:#000000;
+}
