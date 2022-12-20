@@ -1,0 +1,128 @@
+.product .box-container{
+	gap: 2rem;
+	color: var(--black);
+}
+
+.product .box-container .box {
+    flex: 0 0 auto;
+    padding: 1rem 1rem;
+    height: 40rem;
+    width: 23rem;
+    color: #000;
+    text-align: center;
+    background: transparent;
+    /* opacity: .7; */
+    border: 3px solid #3aa34e;
+    border-radius: 20px;
+    margin-left: 20p;
+}
+
+/*Icon Style*/
+#docu{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 90px;
+	color: #3aa34e;
+}
+.product .box-container .box img{
+	position: relative;
+	margin-top: 7px;
+	overflow: hidden;
+	border-radius: 15px;
+	border:2px solid #000;
+	height: 23rem;
+	width: 19rem;
+}
+
+.product .box-container .box h3{
+	color: #ffffff;
+	font-size: 2rem;
+	padding: 2rem 0;
+}
+
+.product .box-container .box #short_description{
+	color: #c2b7b7;
+	font-size: 13px;
+	padding: 1rem 0;
+}
+
+.product .box-container .box .price{
+	color: whitesmoke;
+	font-size: 2rem;
+	padding: 1rem;
+}
+
+.product .box-container .box:hover{
+	background:lightslategray;
+	color: #000;
+}
+
+/* PRODUCTS */
+.product {
+	position: relative;
+	overflow: hidden;
+	padding: 40px;
+  }
+  .product img{
+	height: 400px !important;
+	width: 550px;
+  }
+  
+  .product-container {
+	padding: 0vw;/*padding: 0 10vw;*/
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+	display: none;
+  }
+  /*
+  .product-short-description {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	opacity: 0.5;
+	text-transform: capitalize;
+	margin: 5px 0;
+  }*/
+  
+
+  .pre-btn,
+  .nxt-btn {
+	border: none;
+	width: 7vw;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(90deg, rgba(255, 0, 0, 0) 0%, #13131a 100%);
+	cursor: pointer;
+	z-index: 8;
+  }
+  
+  .pre-btn {
+	left: 0;
+	transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+	right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+	opacity: 0.5;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+	opacity: 3;
+  }
+
+
+  

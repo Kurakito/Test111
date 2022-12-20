@@ -1,0 +1,29 @@
+/*Home Section*/
+.home{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: #16242f;
+}	
+.home .content{
+	max-width: 60rem;
+	max-height: 60rem;
+}
+.home .content h3{
+	font-size: 9rem;
+	text-transform: uppercase;
+	color: #14345c;
+	/*margin-left:800px;*/
+	font-weight: bolder;
+	letter-spacing: 0.5cm;
+	font-stretch: ultra-expanded;
+}
+.home .content p{
+	font-size: 2rem;
+	font-weight: lighter;
+	line-height:2;
+	padding: 1rem;
+	color: #ffffff;
+	
+	
+}

@@ -1,0 +1,151 @@
+/* Media Queries*/
+@media(max-width:991px){
+	html{
+		font-size: 55%;
+		
+	}
+	.header{
+		padding: 1.5rem 2 rem;
+	}
+	section{
+		padding: 2rem;
+	}
+}
+@media(max-width:768px){
+	#menu-btn{
+		display: inline-block; 
+	}
+	
+	#create-btn{
+		display: inline-block; 
+	}
+	.header .navbar{
+		position: absolute;
+		top: 100%; right: -100%;
+		background: var(--black);
+		width: 20rem;
+		height: calc(100vh - 9.5rem);
+	}
+	.header .navbar.active{
+		right:0;
+	}
+	.header .navbar a{
+		color: #fff;
+		display: block;
+		margin: 2rem;
+		padding: .5rem;
+		font-size: 2rem;
+		border: none;
+	}
+	.header .navbar a:hover{
+		color: var(--main-color);
+		box-shadow: none;
+		/*box-shadow: 0 5px 50px 0 #d3ad7f, 0 5px 50px 0 #d3ad7f;*/
+		border: none;
+		/*border-bottom: .1rem solid var(--main-color);*/
+		}
+	.header .search-form{
+		width: 90%;
+		right: 2rem;
+	}
+	.home{
+		background-position: left;
+		justify-content: center;
+		text-align: center;
+	}
+	.home .content h3{
+		font-size: 4.5rem;
+	}
+	.home .content p{
+		font-size: 1.5rem;
+	}
+	
+	.form {
+		width: 300px;
+		height: 400px;
+		position: absolute;
+		top: 100px;
+		left: 100px;
+		border-radius: 10px;
+		padding: 25px;
+		/* z-index: 1; */
+	}
+	.underline {
+		width: 15%;
+		height: 5px;
+		background: #767676;
+		/* align-items: center; */
+		border-radius: 3px;
+		position: absolute;
+		top: 25px;
+		left: 183px;
+		overflow: hidden;
+	}
+	
+	.htc_qua{
+		margin-right: 23px;
+		margin-bottom:-5px;
+	}
+	
+	/*About*/
+	.about .image{
+		display: none;
+	}
+	.heading{
+		text-align: center;
+	}
+	.about .content{
+		margin-top: 20px;
+	}
+	.contact .map{
+		width:10px;
+		margin-right:25px;
+		margin-top:25px;
+	}
+	.product{
+		width:100%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.hero .row{
+		width:100%;
+		height:1199px;
+	}
+	.preview img{
+		max-width:100%;
+		border-radius: 13px;
+		height:10%;
+		position:absolute;
+		margin-top:-390px;
+	}
+	.col .content{
+		margin-top:280px;
+		margin-right:40px;
+	}
+	.add_to_cart{
+		margin-left:145px;
+		width: 40%;
+	}
+
+@media(max-width:450px){
+	html{
+		font-size: 50%;	
+	}
+	
+	
+}
+@media(max-width:700px){
+	.footer{
+		bottom: unset;
+	}
+	.col{
+		flex-basis: 100%;
+		
+	}
+	.col:nth-child(2), .col:nth-child(3){
+		flex-basis: 100%;
+	}
+	
+}
+}

@@ -1,0 +1,214 @@
+h2{
+    color: white;
+    font-size: 24px;
+    margin-top: 110px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+.h4{
+    font-size:30px;
+    text-align:center;
+    align-items: center;
+    background: #23c0d1;
+    color:#000;
+    -webkit-text-stroke: 1px #000;
+    margin-right:20px;
+    font-stretch: ultra-expanded;
+    font-family: Century Gothic;
+}
+.desc{
+    color: #fff;
+}
+.heads1{
+    font-size:18px;
+    width: 30%;
+    color:#23c0d1;
+    background: transparent;
+}
+.checkout-page{
+    color: white;
+    font-size: 18px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 10px;
+}
+.checkout-page .billing-detail{
+    margin-top: 20px;
+    border: 5px solid #23c0d1;
+    width: 60%;
+    height: 450px;
+    border-radius: 5%;
+    background: #14345c;
+    margin-left: 50px;
+}
+.checkout-page .billing-detail h4{
+    color: #D6D6D6;
+    margin-left: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    display: block;
+}
+.checkout-page .checkout-form .from-group{
+    margin: 10px 10px;
+    width: calc(100% - 10px);
+}
+.checkout-page .checkout-form label{
+    display: block;
+    color: #eeeeef;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.checkout-page .checkout-form input[type=text],
+.checkout-page .checkout-form select,
+.checkout-page .checkout-form textarea{
+    background: transparent;
+    height: 23px;
+    margin-left: 10px;
+    color: #d6d6d6;
+    font-size: 16px;
+}
+.checkout-page .checkout-form input[type=text],
+.checkout-page .checkout-form select,
+.checkout-page .checkout-form textarea{
+    width: 300px;
+    display: flex;
+    padding: 10px 5px;
+}
+#login_email, #login_password{
+    background: #bbb;
+    color: black;
+    width: 160%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.checkout-page .form-inline{
+    display: flex;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+#username{
+    color:#23c0d1; 
+    cursor:pointer;
+}
+.hr{
+    border-top:2px solid #306184; 
+    margin-left:15px;
+    margin-right:15px;
+}
+.save{
+    width:70px;
+    height:35px;
+    color: #000;
+    font-weight: bold;
+    margin-left: 30px;
+    background: #23c0d1;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.save:hover{
+    background: #3891ac;
+    color: #fff;
+	letter-spacing:.1rem;
+}
+.change{
+    width:70px;
+    height:35px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+    background: #14345c;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.change:hover{
+    background: #8c8c8c;
+    color: #000;
+	letter-spacing:.1rem;
+}
+
+/*Checkout Page = Checkout Summary Styling*/
+.order-summary{
+    background: #3891ac;
+    width: 27%;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 5px solid #14345c;
+    padding: 5px;
+    position:absolute; 
+    margin-left: 900px; 
+    height:100%;
+}
+.order-summary .checkout-total span{
+    float: right;
+    margin-right:20px;
+    color: #000;
+    font-weight: bold;
+}
+.order-summary .checkut-total ul{
+    list-style: none;
+    padding: 10px;
+}
+.order-summary .checkout-total ul li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.order-summary .checkout-total ul li a :hover{
+    color: black;
+    background-color: gray;
+}
+.order-summary .checkout-total ul li input[type="radio"]{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin-right: 5px;
+    outline: none;
+    appearance: none;
+}
+.order-summary .checkout-total ul li input[type="radio"]:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 2px;
+    position: absolute;
+    border: 1px solid rgba(236, 240, 241, 0.3);
+    border-radius: 50%;
+    padding: 2px;
+    box-sizing: border-box;
+    background-clip: content-box;
+}
+.order-summary .checkout-total ul li input[type="submit"]:hover{
+    color: white;
+    background-color: #143941;
+    letter-spacing:.1rem;
+}
+.link{
+    margin-right: 500px;
+    margin-top: 30px;
+}
+img{
+    top: 20px;
+    left: 500px;
+}
+
+/*Additional in second row*/
+.h42{
+    color:#14345c;
+    margin-left:15px; 
+    margin-right:20px;
+    height:25px; 
+    font-size:24px;
+    font-weight: bold;
+}
+.refno{
+    width:50px;
+}
+.order-summary .checkout-total .purpose1 #purpose{
+    width: 500px;
+    height: 120px;
+}

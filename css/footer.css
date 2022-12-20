@@ -1,0 +1,148 @@
+.footer{
+	background: #2d2d2d !important;
+	text-align: center;
+	border: .1rem solid #3aa34e;
+
+	/*add*/
+	width: 100%;
+	color: #fff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	font-size:13px;
+	line-height: 20px;
+}
+h3{
+	color: #7cd657;
+}
+ .login_footer span{
+display:none;
+}
+.row{
+	/*width: 85%;*/
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.logo{
+	width: 80px;
+	/*margin-bottom: 30px;*/
+}
+.col{
+	flex-basis: 25%;
+	padding: 10px;
+}
+.col:nth-child(2), .col:nth-child(3){
+	flex-basis: 25%;
+	font-size: 14px;
+}
+.col h3{
+	/*width: fit-content;*/
+	margin-bottom: 40px;
+	position: relative;
+	color: var(--main-color);
+}
+
+.email-id{
+	/*width: fit-content;*/
+	border-bottom: 1px solid #23c0d1;
+	margin: 20px 3;
+	text-transform:none;
+}
+ul li{
+	list-style: none;
+	margin-bottom: 12px;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+ul li a:hover{
+	color: var(--main-color);
+}
+form{
+	padding-bottom: 1px;
+	/*display: flex; */
+	align-items: center;
+	justify-content: space-between;	
+}
+form .fas{
+	font-size: 18px;
+	margin-right: 14px;
+}
+form input{
+	width: 50%;
+	background: transparent;
+	color: #ccc;
+	border: 0;
+	outline: none;
+}
+form button{
+	background: var(--main-color);
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+form button .fas{
+
+	font-size: 16px;
+	color: #000;
+}
+.social-icons .fab{
+	width: 10px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+	/*background: #fff; */
+	margin-right: 15px;
+	cursor: pointer;
+}
+.social-icons .fab:hover{
+	color: var(--main-color);
+}
+
+
+
+.underline{
+	width: 15%;
+	height: 5px;
+	background: #767676;
+	/*align-items: center;*/
+	border-radius: 3px;
+	position: absolute;
+	top: 25px;left: 120px;
+	overflow: hidden;
+}
+.underline span{
+	width: 15px;
+	height: 100%;
+	background: var(--main-color);
+	border-radius: 3px;
+	position: absolute;
+	top: o; left: 10px;
+	animation: moving 2s linear infinite;
+}
+@keyframes moving{
+	0%{
+		left: -20px;
+	}
+	100%{
+		left: 100%;
+}
+}
+
+.footer .share{
+	padding: 1rem 0;;
+}
+.footer .share a{
+	height: 5rem;
+	width: 5rem;
+	line-height: 5rem;
+	font-size: 2rem;
+	color: #fff;
+	border:green;
+	margin: 3rem;
+}
